@@ -1,0 +1,33 @@
+{
+  "name": "productivity-frontend",
+  "version": "1.0.0",
+  "description": "Productivity Application - Kanban Style Productivity Management Application with Customizable Boards, Lists and Cards to Make You More Productive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhilc10/productivity-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikhilc10/productivity-frontend/issues"
+  },
+  "homepage": "https://github.com/nikhilc10/productivity-frontend#readme",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "mongoose": "^5.4.16"
+  },
+  "devDependencies": {
+    "bcrypt-nodejs": "0.0.3"
+  }
+}
